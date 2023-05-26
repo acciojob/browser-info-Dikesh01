@@ -3,4 +3,6 @@
 let info = document.getElementById("browser-info");
 
 
-info.innerText= "You are using " + navigator.userAgent;
+// info.innerText= "You are using " + navigator.userAgent;
+
+info.innerText= "You are using " + navigator.userAgent + " version " + version;
